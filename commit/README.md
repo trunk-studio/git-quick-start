@@ -1,45 +1,22 @@
-# branch
+# Commit
 
-在開發軟體時，可能同時會有多人在開發同一功能或修復錯誤，也可能會有多個發佈版本的存在，並且需要針對每個版本進行維護。
+當修改或是新增專案程式檔案時，可以透過 Commit 動作將其紀錄於本地版控數據庫，以便將來可以查詢/回復您對專案的變更，並可以搭配接下來章節所教的 Push 將本地版控數據庫的變更與遠端版控數據庫作同步。
 
-為了能支援同時進行數個功能的增加或版本控制，Git具備了分支的功能。
+## 新增您欲紀錄的變更與 Commit
 
-分支是為了將修改記錄的整體流程分開儲存，讓分開的分支不受其他分支的影響，所以在同一個數據庫裡可以同時進行多個不同的修改。
+> 於專案目錄中新增 test.txt 檔案
 
-## 建立 branch
+![commit example](./commit.png)
 
-`git branch feature_x`
-
-## 建立 branch 並且切換過去
-
-`git checkout -b feature_x`
-
-## 刪除 branch
-
-`git branch -d feature_x`
-
-## 將 branch push 至遠端
-
-`git push origin <branch>`
+1. 於 SourceTree 左側的專案列表上找到您剛剛修改的專案
+2. 點擊 Working Copy 查看你目前對專案的變更
+3. 點擊 Stage All 將所有變更加入此次 Commit
+4. 填寫此次變更的描述/說明
+5. 點擊 Commit 按鈕
 
 
-## 練習
+## 本章節操作對應之 git 指令
 
-### 創建 git 版本控制專案
+`git add .`
 
-1. 新增資料夾 git-tutorial
-2. 進入 git-tutorial 資料夾
-2. 新增檔案 README.md
-3. 執行 `git init` 初始化專案
-4. 執行 `git add .` 加入所有變更的檔案
-5. 執行 git commit -m 'init'
-
-
-### 建立分支
-
-1. 執行 `git branch develop`
-2. 切換到 develop 分支 `git checkout develop`
-3. 修改 README.md 新增 `hello develop branch`
-4. 執行 git commit -m 'add develop branch'
-5. 執行 `git log --graph --oneline --decorate --all`
-6. 確認已有新的分支產生
+`git commit -m "此次變更的描述/說明"`

@@ -4,20 +4,20 @@ checkout 可用於將特定版本檔案取出，無論是資料夾或檔案皆�
 
 ## 取出特定檔案
 
-`git checkout <filename>`
+> 將 test.txt 內容做修改
 
-## 取出特定資料夾
+![checkout example](./checkout.png)
 
-`git checkout <foldername>`
+1. 於 SourceTree 左側的專案列表上找到您欲取出檔案的專案
+2. 點擊 Working Copy 查看你目前對專案的變更
+3. 點擊 test.txt 便可以於右邊面板查看該檔案詳細變更
+4. 點擊 Discard hunk 按鈕，便可以捨棄對 test.txt 的變更，此範例中 test.txt 內容會還原成 123
 
-## 取出特定分支
+## 本章節操作對應之 git 指令
 
-`git checkout <branchname>`
-
-
+`git checkout <file path>`
 
 ## 練習
-
 
 ### 練習專案初始
 
