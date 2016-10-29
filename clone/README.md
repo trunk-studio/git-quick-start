@@ -5,6 +5,9 @@
 執行複製後，可以把遠端數據庫裡的內容全部下載下來，之後您可以在另一台機器的本地數據庫上進行操作。
 
 ## 取出遠端專案
+> 以 bitbucket 上代管的遠端數據庫為例
+
+![alt text][clone/clone.png]
 
 `git clone /path/to/repository`
 
