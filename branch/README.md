@@ -23,8 +23,7 @@
 
 ![branch example](./branch_checkout.png)
 
-1. 於 SourceTree 左側的專案列表上找到您欲切換 branch 的專案
-2. 在愈切換之 branch 名字上快按兩下，即可切換到該 branch 環境
+1. 在愈切換之 branch 名字上快按兩下，即可切換到該 branch 環境
 
 #### 此操作對應之 git 指令
 
