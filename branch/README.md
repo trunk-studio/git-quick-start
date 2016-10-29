@@ -13,11 +13,11 @@
 1. 於 SourceTree 左側的專案列表上找到您欲新增 branch 的專案
 2. 點擊 Branch 按鈕
 3. 設定您欲新增 Branch 的名字
-4. 點擊 Create Branch 按鈕，完成 branch 建立， SourceTree 會自動將您目前環境切到 branch 上
+4. 點擊 Create Branch 按鈕，完成 branch 建立， SourceTree 會自動將您目前環境切到該 branch 上
 
 #### 此操作對應之 git 指令
 
-`git branch feature_x`
+`git checkout -b feature_x`
 
 ## 切換 branch
 
