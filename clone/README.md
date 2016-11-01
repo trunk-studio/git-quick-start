@@ -6,21 +6,21 @@
 
 ## 取出遠端專案
 
-> 以 bitbucket 上代管的遠端數據庫為例
+> 以 GitLab 上代管的遠端數據庫為例
 
 #### 取的遠端數據庫網址
 
 ![clone example](./clone.png)
 
-1. 點擊 bitbucket 側邊選單上的 Clone
-2. 複製指令
+1. 點擊 GitLab 側邊選單上的 Project，找到你需要的專案
+2. 點擊按鈕複製 repository url（http://gitlab.trunksys.com:30000/ewill/machine-service.git）
 
 #### 開啟 SourceTree 進行 Clone 操作
 
 ![clone example](./clone2.png)
 
 3. 點擊 SourceTree 工具攔上的 Clone/New
-4. 貼上剛剛複製之指令
+4. 貼上剛剛複製之 repository url
 5. 設定本地數據庫放置資料夾（Optional）
 6. 點擊 Clone 按鈕
 
@@ -29,11 +29,3 @@
 `git clone /path/to/repository`
 
 `git clone username@host:/path/to/repository`
-
-
-## 練習
-
-1. 進入網址 <https://github.com/agileworks-tw/git-hello-world>
-2. 取得 https git url
-3. 執行 `git clone <https git url>`
-4. 確認專案以複製完成
