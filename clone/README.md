@@ -13,7 +13,7 @@
 ![clone example](./clone.png)
 
 1. 點擊 GitLab 側邊選單上的 Project，找到你需要的專案
-2. 點擊按鈕複製 repository url（此範例為 http://gitlab.trunksys.com:30000/sakuxz/demo.git）
+2. 點擊按鈕複製 repository url（http://gitlab.trunksys.com:30000/ewill/machine-service.git）
 
 #### 開啟 SourceTree 進行 Clone 操作
 
